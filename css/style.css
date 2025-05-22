@@ -27,14 +27,14 @@ height: 100vh;
 }
 
 .container {
-    background-color: yellow;
+    background-color: #d5f8eb;
     padding: 5px;
     width: 300px;
     height: 300px;
     overflow-y: scroll;
-    border: 15px solid #ff00ff40;
+    border: 15px solid #1c3d23;
     border-radius: 20px;
-    box-shadow: 0px 0px 50px #33002240;
+    box-shadow: 0px 0px 50px #728484;
     transition: all 0.5s ease;
 }
 
@@ -73,7 +73,7 @@ flex-direction: row;
 align-items: center;
 gap: 10px;
 width: 60%;
-background-color: ■antiquewhite;
+background-color: #d5f8eb;
 border-radius: 10px;
 }
 
