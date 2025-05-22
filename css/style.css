@@ -140,20 +140,34 @@ h2 {
 }
 /*style for footer*/
 footer {
-  color:#1c3d23;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  padding: 40px 20px;
+  margin-top: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
   text-align: center;
-  padding: 1em 0;
-  font-size: 0.9em;
-  margin-top: 50px;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .footer-content a {
-  color: #1c3d23;
+  color: #80c1ff;
   text-decoration: none;
-  margin: 0 8px;
+  transition: color 0.3s ease;
 }
 
 .footer-content a:hover {
-  color: #fff;
+  color: #ffffff;
   text-decoration: underline;
 }
+
